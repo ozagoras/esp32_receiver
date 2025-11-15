@@ -9,10 +9,10 @@
 #include "freertos/event_groups.h"
 #include "driver/gpio.h"
 #include "freertos/queue.h"
+#include "secrets.h"
 
 static QueueHandle_t msg_queue;
-#define WIFI_SSID "COSMOTE-697523"
-#define WIFI_PASS "76u7mnkndgex7cns6geu"
+
 #define WIFI_CONNECTED_BIT BIT0
 #define LED_GPIO GPIO_NUM_27 // Built-in LED on many ESP32 boards
 static const char *TAG = "HTTPS_APP";

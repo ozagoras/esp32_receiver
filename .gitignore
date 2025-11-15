@@ -15,6 +15,7 @@ sdkconfig.cmake
 sdkconfig.*
 sdkconfig.json
 ca.pem
+secrets.h
 managed_components/
 # IDEs and editors
 .vscode/
