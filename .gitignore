@@ -33,3 +33,4 @@ venv/
 *.log
 *.bak
 *.tmp
+*.lock
